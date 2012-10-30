@@ -1,0 +1,13 @@
+---
+layout:default
+title:ÎÒµÄblog
+---
+<h2>{{page.title}}</h2>
+<p>ÎÄÕÂ</p>
+<ul>
+{%for post in site.posts %}
+<li>{{post.data | data_to_string}}
+<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+</li>
+{%endfor%}
+</ul>
