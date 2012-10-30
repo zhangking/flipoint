@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<script language="JavaScript" src="scripts/jQuery.js"></script>
+ <script type="text/javascript" src="scripts/nicEdit/nicEdit.js"></script>
+<script type="text/javascript" src="scripts/desire.js"></script>
+<script type="text/javascript" src="scripts/fancybox/jquery.fancybox.pack.js"></script>
+ <link rel="stylesheet" href="scripts/fancybox/jquery.fancybox.css"  />
+ 
+<script type="text/javascript">
+	bkLib.onDomLoaded(function() { nicEditors.allTextAreas() });
+	
+	$(document).ready(function(){
+	backtotop();
+	getTime();
+	imgReady('http://pic1.sc.chinaz.com/files/pic/pic9/201210/xpic7779.jpg', function () {
+	
+});
+	})
+	
+	$("a#inline").fancybox({
+        'hideOnContentClick': true
+    });
+</script>
+   <link  rel="stylesheet"  href="styles/base.css"  />
+   <link   rel="stylesheet"   href="styles/desire.css"  > 
+   <style>
+
+
+</style>
+  
+
+
+</head>
+
+<body style="background:url(http://pic1.sc.chinaz.com/files/pic/pic9/201210/xpic7779.jpg);padding:50px">
+
+<div id="AdLayer" style="position:absolute;width:20px;height:59px;top:0px;right:-30px;"><A href="#top" class="btn1" >sdds</A></div>
+
+
+
+<div class="round transparent shadow" style="width:400px;height:380px;background:#FFFFFF">
+<h1>
+标题
+</h1>
+class="round transparent shadow"
+</div>
+<h2>button</h2>
+<div style="padding:20px">
+<a class="btn1" href="#">登录</a><a class="btn2" href="#">取消</a><a class="btn3" href="#">登录</a><a class="btn4" href="#">取消</a><a class="btn5" href="#">取消</a><a class="btn6" href="#">登录</a>
+</div>
+<br>
+<h2>input</h2>
+<div style="margin:50px">
+1<input class="input1"/>
+2<input class="input2"/>
+<select class="select">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+</select>
+</div>
+<h2>table</h2>
+<div style="margin-top:100px;">
+<table class="table table-hover"> 
+
+<tr class="success"> 
+<td scope="col">姓名</td> 
+<td  scope="col">年龄</td> 
+<td scope="col">电话</td> 
+<td scope="col">居住地点</td> 
+</tr> 
+<tr> 
+<td class="row">badwolf</td> 
+<td class="row">100</td> 
+<td class="row">010-110</td> 
+<td class="row">中国北京</td> 
+</tr> 
+<tr> 
+<td class="row">badwolf</td> 
+<td class="row">100</td> 
+<td class="row">010-110</td> 
+<td class="row">中国北京</td> 
+</tr> 
+<tr> 
+<td class="row">badwolf</td> 
+<td class="row">100</td> 
+<td class="row">010-110</td> 
+<td class="row">中国北京</td> 
+</tr> 
+</table> 
+</div>
+<h2>nicEdit</h2>
+<textarea class="input" name="area1" style="width:500px;height:200px;"></textarea>
+<h2>fancybox</h2>
+<a  id="inline" href="#data" class="btn2">show</a>
+
+<img src="01.jpg" id="data"  style="display:none"/>
+<div class="left">
+<p   id="date" ></p>
+    <br/>
+	<input class="input1" type="text" id="time" />
+	</div>
+	<div class="page left">
+	<a>首页</a>
+<a>1</a>	
+<a>2</a>	
+<a>3</a>
+<a>末页</a>
+</div>	
+	
+</body>
+</html>
