@@ -1,1 +1,1 @@
-baseurl£º /flipoint
+baseurl£º /
