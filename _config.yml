@@ -1,1 +1,2 @@
-baseurl:/flipoint
+markdown: rdiscount
+pygments: true
