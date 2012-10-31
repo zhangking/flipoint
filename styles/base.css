@@ -15,10 +15,7 @@ fieldset, img {
 	border: none;
 }
 body,
-button, input, select, textarea { /* for ie */
-    /*font: 12px/1 Tahoma, Helvetica, Arial, "ËÎÌו", sans-serif;*/
-    font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; 
-}
+
 h1 { font-size: 18px; /* 18px / 12px = 1.5 */ }
 h2 { font-size: 16px; }
 h3 { font-size: 14px; }
