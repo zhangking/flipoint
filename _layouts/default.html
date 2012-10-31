@@ -3,40 +3,22 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 <title>{{page.title}}</title>
-<link href="{{site.baseurl}}/css/screen.css" rel="stylesheet" type="text/css" />
-<link href="{{site.baseurl}}/css/pygments.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript">
-
-</script>
-</head>
+<script language="JavaScript" src="scripts/jQuery.js"></script>
+<script type="text/javascript" src="scripts/nicEdit/nicEdit.js"></script>
+<script type="text/javascript" src="scripts/desire.js"></script>
+<script type="text/javascript" src="scripts/fancybox/jquery.fancybox.pack.js"></script>
+<link rel="stylesheet" href="scripts/fancybox/jquery.fancybox.css"  />
+<link  rel="stylesheet"  href="styles/base.css"  />
+<link   rel="stylesheet"   href="styles/desire.css"  > </head>
 
 <body>
-    <div class="site">
+    <div class="round transparent shadow" style="position:absolute;margin-left:200px;margin-top:100px;width:800px;min-height:300px">
         <div class="title">
-            <a href="{{site.baseurl}}/">Clavier</a>
+            <a href="{{site.baseurl}}/">flipoint</a>
             <a href="{{site.baseurl}}/" class="extra">home</a>
             <a href="{{site.baseurl}}/about.html" class="extra">about</a>
         </div>
-        <!--
-        <div class="nav">
-            <ul>
-                <li><a href="{{site.baseurl}}/tags.html">TAGS</a></li>
-                <li><a href="{{site.baseurl}}/about">ABOUT</a></li>
-            </ul>
-        </div>
-        -->
-        <!--
-        <div class="tag_index">
-            <ul>
-                {% for tag in site.tags %}
-                <li>
-                    <a href="{{site.baseurl}}/tags.html#{{tag[0]}}">{{ tag[0] }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-        -->
-        {{ content }}
+               {{ content }}
         <div class="footer">
             <div class="contact">
             </div>
