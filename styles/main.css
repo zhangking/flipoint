@@ -24,7 +24,7 @@ z-index:3;
 width:25%;
 height:1000px;
 float:left;
-background:url(images/splash.png) no-repeat;
+background:url(../images/splash.png) no-repeat;
 }
 #dis_think{
 margin-left:70px;
