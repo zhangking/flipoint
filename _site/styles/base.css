@@ -1,11 +1,9 @@
 /*
 Copyright (c) 2012, desire. All rights reserved.
 version: 1.0 | 2012
-Author:zhangkai
+Author:king
 */
-body{
-overflow:hidden;
-}
+
 body, div, dl, dt, dd, ul, ol, li,
 h1, h2, h3, h4, h5, h6, pre, code,
 form, fieldset, legend, input, button,
@@ -16,11 +14,11 @@ textarea, p, blockquote, th, td {
 fieldset, img {
 	border: none;
 }
-body,
-button, input, select, textarea { /* for ie */
+body,button, input, select, textarea { /* for ie */
     /*font: 12px/1 Tahoma, Helvetica, Arial, "ËÎÌו", sans-serif;*/
     font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; 
 }
+
 h1 { font-size: 18px; /* 18px / 12px = 1.5 */ }
 h2 { font-size: 16px; }
 h3 { font-size: 14px; }

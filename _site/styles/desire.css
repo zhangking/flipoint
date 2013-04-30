@@ -1,4 +1,78 @@
+.right {
+    float: right;
+}
 
+.left {
+    float: left;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clear {
+    zoom: 1; /* for IE6 IE7 */
+}
+
+.clear:before, .clear:after {
+    display: table;
+    content: "";
+}
+
+.clear:after {
+    clear: both;
+}
+
+.center() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-overflow() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.more {
+color: #00A6FC;
+font-weight: normal;
+font-size: 12px;
+float: right;
+margin: -8px 5px 0 0;
+}
+
+.test{
+	border:1px solid #000;
+}
 .shadow{
     -moz-box-shadow: 3px 3px 4px #000;
     -webkit-box-shadow: 3px 3px 4px #000;
@@ -9,22 +83,135 @@
     filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
    }
    
-  .round{
+  .round  ,.input1,.input2,.backToTop,.select{
    -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
-	border-radius:6px;
-   
+     behavior: url(ie-css3.htc);
   } 
   
   
   .transparent{
-   filter: alpha(opacity=60); /*IE*/
-   -moz-opacity: 0.6; /*Mozilla*/
-   opacity: 0.6; /*FF*/ 
+   filter: alpha(opacity=70); /*IE*/
+   -moz-opacity: 0.7; /*Mozilla*/
+   opacity: 0.7; /*FF*/ 
 }
 
 
+.btn1 ,.btn2,.btn3,.btn4,.btn5,.btn6{
+    display:block;
+	float:left;
+	width:80px;
+    height:35px;
+	line-height:35px;
+	text-align:center;
+	border:1px solid #999;
+	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+     font-family: "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", "Microsoft Yahei", "΢���ź�", Tahoma, Arial,STHeiti,sans-serif;
+	 background:#E7E7E7;
+}
+a.btn1{color:#000}
+a:hover.btn1{COLOR:#DDDDDD;}
+.btn1:hover {
+ 
+ background:#5194D8;
+}
 
+.btn2{
+background:#444;
+}
+a.btn2{COLOR: #fff;}
+a:hover.btn2{COLOR:#9C9FA2;}
+.btn2:hover {
+
+ background:#3567AA;
+}
+.btn3{
+background:#2785B9;
+}
+a.btn3{COLOR: #fff;}
+.btn3:hover {
+
+ background:#4AACE2;
+}
+.btn4{
+background:#0E0B0B;
+}
+a.btn4{COLOR: #fff;}
+.btn4:hover {
+
+ background:#36383A;
+}
+.btn5{
+background:#EC5176;
+}
+a.btn5{COLOR: #fff;}
+.btn5:hover {
+
+ background:#CC3F61;
+}
+.btn6{
+background:#6CCC3F;
+}
+a.btn6{COLOR: #fff;}
+.btn6:hover {
+
+ background:#58AD30;
+}
+
+.input1,.input2,.select{
+width: 200px;
+padding: 6px;
+height: 18px;
+line-height: 18px;
+border:1px solid #BBBABA;
+position:relative;
+font-size: 15px;
+border-top:2px solid #BBBABA;
+border-left:2px solid #BBBABA;
+background:#fff;
+}
+.select{
+width: 150px;
+height: 33px;
+}
+.select:focus{
+background:#F5F5F5;
+border:1px solid #88C2E9;
+border-top:2px solid #88C2E9;
+border-left:2px solid #88C2E9;
+
+}
+.input1:focus{
+background:#F5F5F5;
+border:1px solid #88C2E9;
+border-top:2px solid #88C2E9;
+border-left:2px solid #88C2E9;
+}
+.input2:focus{
+background:#F5F5F5;
+border:1px solid #5C5C5C;
+border-top:2px solid #5C5C5C;
+border-left:2px solid #5C5C5C;
+}
+
+.nav{
+margin-left:200px
+}
+.nav li:hover{
+
+box-shadow:-10px 0 10px red, box-shadow:10px 0 10px blue,box-shadow:0 -10px 10px yellow,box-shadow:0 10px 10px green}
+.nav li{  
+    font-size:16px;
+    display:block;
+	float:left;
+	width:80px;
+    height:50px;
+	line-height:50px;
+	text-align:center;
+	border-right:1px solid #999;
+     font-family: "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", "Microsoft Yahei", "΢���ź�", Tahoma, Arial,STHeiti,sans-serif;}
+.nav a{color:#FFFFFF}
 table {
   max-width: 100%;
   background-color: transparent;
@@ -292,25 +479,28 @@ table [class*=span],
   background-color: #c4e3f3;
 }
 
+.backToTop
+{
+display: none; 
+width: 30px; 
+height: 90px; 
+padding: 5px 0; 
+background-color: #000; 
+color: #fff; 
+font-size: 16px; 
+text-align: center; 
+position: fixed; 
+_position: absolute; 
+right: 10px; 
+bottom: 100px;
+_bottom: "auto";
+cursor: pointer; 
+opacity: .6; 
+filter: Alpha(opacity=60);
+}
 
-.triangle1{
-    position:relative;
-    left:28%;
-    top:50%;
-    width:0; 
-    height:0;  
-    border-width:30px;  
-    border-style:dashed solid solid solid; 
-    border-color:transparent transparent transparent #999999;
-}
-.triangle2{
-    left:-28%;
-    position:relative;
-	top:50%;
-    width:0; 
-    height:0;  
-    border-width:30px;  
-    border-style:dashed solid solid solid; 
-    border-color:transparent #999999 transparent transparent;
-}
+
+
+
+
 
